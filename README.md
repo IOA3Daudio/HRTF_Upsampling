@@ -1,2 +1,2 @@
-# HRTF_Interpolation
-The source code for HRTF interpolation using acoustic features
+# HRTF_Upsampling
+The source code for HRTF Upsampling using extrapolation features
