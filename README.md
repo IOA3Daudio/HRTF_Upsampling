@@ -5,6 +5,7 @@ Zhao J, Yao D, Li J. Head-Related Transfer Function Upsampling With Spatial Extr
 The floder named `preprocessing` houses the MATLAB code used for preprocessing the HRTFs and sampling grids.
 1. Put the `*.sofa` files from the dataset (e.g. HUTUBS) into one folder, and run `main_preprocessing.m`.
 2. The processed HRTF data and ITD data will be saved in corresponding `*.mat` files.
+Requirements: The code is implemented in MATLAB R2018b and requires the AMT (https://amtoolbox.org/), and SUpDEq toolbox (https://github.com/AudioGroupCologne/SUpDEq).
 
 
 ## Spectra upsampling
