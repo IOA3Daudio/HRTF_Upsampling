@@ -8,29 +8,29 @@ The floder named `preprocessing` houses the MATLAB code used for preprocessing t
 
 
 ## Spectra upsampling
-The floder named `hrtf upsampling` houses the Python code used for upsampling the HRTF spectra.
+The folder named `hrtf upsampling` houses the Python code used for upsampling the HRTF spectra.
 1. Copy the processed HRTF data into the folder `hrtf upsampling` as the path configured in `config.py`.
-2. run:
+2. Run:
    ```
    python train.py
    ```
    to train the model for upsampling HRTF spectra.
-4. run:
+4. Run:
    ```
    python test.py
    ```
    to test the trained model and save the results in `*.mat`
 
 
-## TOA upsampling
-The floder named `itd upsampling` houses the Python code used for upsampling the ITDs.
+## ITDs upsampling
+The folder named `itd upsampling` houses the Python code used for upsampling the ITDs.
 1. Copy the processed ITD data into the folder `itd upsampling` as the path configured in `config.py`.
-2. run:
+2. Run:
    ```
    python train.py
    ```
    to train the model for upsampling ITDs.
-4. run:
+4. Run:
    ```
    python test.py
    ```
