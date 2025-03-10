@@ -16,7 +16,7 @@ The folder named `hrtf upsampling` houses the Python code used for upsampling th
    python train.py
    ```
    to train the model for upsampling HRTF spectra.
-4. Run:
+3. Run:
    ```
    python test.py
    ```
@@ -31,8 +31,22 @@ The folder named `itd upsampling` houses the Python code used for upsampling the
    python train.py
    ```
    to train the model for upsampling ITDs.
-4. Run:
+3. Run:
    ```
    python test.py
    ```
    to test the trained model and save the results in `*.mat`
+
+
+## Citation
+```
+@ARTICLE{10896800,
+  author={Zhao, Jiale and Yao, Dingding and Li, Junfeng},
+  journal={IEEE Transactions on Audio, Speech and Language Processing}, 
+  title={Head-Related Transfer Function Upsampling With Spatial Extrapolation Features}, 
+  year={2025},
+  volume={33},
+  pages={1034-1048},
+  doi={10.1109/TASLPRO.2025.3544080}
+}
+```
